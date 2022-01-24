@@ -16,30 +16,32 @@
         
         <nav class="navbar-nav" style="background-color: #282828; padding:10px;">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> </ul>
-          </nav>
+        </nav>
+
+      
 
 
-        <div class="d-flex justify-content-center h-100" style="margin-top: 55px;">
+        <div class="d-flex justify-content-center h-100" style="margin-top: 65px;">
             
             <h1 style="color: white"><b>Sabu.ai</b></h1>
         </div>
 
         <div class="d-flex justify-content-center h-100">
             
-            <p style="color: white">Built by the TMA team&nbsp;&nbsp;</p>
+            <p style="color: white">Built by the <a data-toggle="tooltip" data-placement="top" title="Thought Modeling Analysis">TMA</a> team&nbsp;&nbsp;</p>
             <i style="font-size:24px; color:white;" class="fa"><a id="git" style="color:white;" href="https://github.com/plehman2000/TwitterProject">&#xf09b;</a></i>
             
                 
 
         </div>
         
-        <div class="d-flex justify-content-center h-100">
+        <div  class="d-flex justify-content-center h-100">
             
-            <div class="search" style="margin-top:5px;"> <input type="text" class="search-input" placeholder="Search for tweets" name=""> <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a> </div>
+            <div id="blocky"class="search" style="margin-top:5px;"> <input type="text" class="search-input" placeholder="Search for tweets" name=""> <a href="#" class="search-icon"> <i class="fa fa-search"></i> </a> </div>
         </div>
 
 
-        <div style="margin: auto;width: 40.5%;padding: 0px; margin-top:10px;background-color: #fff;font-weight:300; min-width:300px; height:23%;">
+        <div id="blocky" style="margin: auto;width: 40.5%;padding: 0px; margin-top:10px;background-color: #fff;font-weight:300; min-width:300px; height:23%;">
             <form method="post">
                 <div class="parent">
 
@@ -112,7 +114,7 @@
         </div>
 
 
-        <div style="margin: auto;width: 40.5%;padding: 10px; margin-top:10px;background-color: #fff;font-weight:300; min-width:300px;">
+        <div id="blocky" style="margin: auto;width: 40.5%;padding: 10px; margin-top:10px;background-color: #fff;font-weight:300; min-width:300px;">
             <div class="parent">
                 <div class="child" style="margin-right:30px;">
                     <h1 style="font-weight:300;">Polarity Scores</h1>
@@ -129,10 +131,10 @@
             </div>
         </div>
 
-        <div style="margin: auto;width: 40.5%;padding: 10px; margin-top:10px;background-color: #fff;font-weight:300; min-width:300px;">
+        <div id="blocky" style="margin: auto;width: 40.5%;padding: 10px; margin-top:10px;background-color: #fff;font-weight:300; min-width:300px;">
             <h1 style="font-weight:300;">Sentiment Analysis</h1>
 
-            <div class="inline-block-child" style="width: 65%;min-width:300px;height:20%;float: left; margin-top: 20px; margin-bottom: 30px">
+            <div class="inline-block-child" style="width: 65%;min-width:300px;height:20%;float:center; margin-top: 20px; margin-bottom: 30px">
                 <canvas id="myChart" width="400" height="300"></canvas>
                  <script src="{{url_for('static', filename='../static/main.js')}}"></script>
                  <script>
@@ -229,7 +231,7 @@
 
 
 
-        <div style="margin: auto;width: 40.5%;margin-top:10px;background-color: #fff;font-weight:300; min-width:300px;margin-bottom:70px;">
+        <div id="blocky" style="padding:5px;margin: auto;width: 40.5%;margin-top:10px;background-color: #fff;font-weight:300; min-width:300px;margin-bottom:70px;">
             
             
             <table class="table">
